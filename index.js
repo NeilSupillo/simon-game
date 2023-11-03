@@ -5,7 +5,7 @@ let started = false;
 let level = 0;
 let highestLevel = 0;
 
-//detect key press
+//detect key press jdjdjd
 //when start in click
 $(".start").click(function() {
 
