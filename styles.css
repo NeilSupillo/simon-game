@@ -14,9 +14,10 @@ body {
 p {
   font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
-  margin: 1.5rem;
+  margin: 1.2rem;
   color: #fef2bf;
   font-weight: 800;
+  line-height: 1.5rem;
 }
 p {
   font-size: 1rem;
@@ -68,8 +69,8 @@ p {
 
 .start {
   text-align: center;
-  height: min(25vw, 100px);
-  width: min(40vw, 200px);
+  height: 4rem;
+  width: 9rem;
   border: 8px solid black;
   border-radius: 10px;
   background-color: #fef2bf;
