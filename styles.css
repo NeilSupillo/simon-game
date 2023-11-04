@@ -1,38 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #011f3f;
+
+  margin: auto;
 }
 
-#level-title, p{
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+#level-title,
+p {
+  font-family: "Press Start 2P", cursive;
+  margin: 1.5rem 1rem 1rem 1rem;
+  color: #fef2bf;
   font-weight: 800;
 }
-p{
+p {
   font-size: 1rem;
 }
 .container {
   display: flex;
   flex-flow: row wrap;
   height: auto;
-  width: min(100%, 800px);
+  width: 100%;
   margin: auto;
-align-items: center;
-justify-content: center;
-gap: .5rem;
-  
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-
 .btn {
- margin-bottom: .5rem;
-  height: min(40vw,300px);
-  width: min(40vw, 300px);
+  margin-bottom: 0.5rem;
+  height: 10rem;
+  width: 10rem;
   border: 10px solid black;
   border-radius: 20%;
-  
 }
 
 .game-over {
@@ -61,14 +65,14 @@ gap: .5rem;
   background-color: grey;
 }
 
-.start{
+.start {
   text-align: center;
-  height: min(20vw,100px);
-  width: min(30vw, 200px);
+  height: 4rem;
+  width: 10rem;
   border: 8px solid black;
   border-radius: 10px;
-  background-color: #FEF2BF; 
-  
-  font-size: 1.4rem;
+  background-color: #fef2bf;
+
+  font-size: 1rem;
   font-weight: 800;
 }
