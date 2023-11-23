@@ -74,7 +74,7 @@ p {
   border: 8px solid black;
   border-radius: 10px;
   background-color: #fef2bf;
-
+  cursor: poiter;
   font-size: 1.4rem;
   font-weight: 800;
 }
